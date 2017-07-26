@@ -1,9 +1,10 @@
 // This program converts a set of images to a lmdb/leveldb by storing them
 // as Datum proto buffers.
 // Usage:
-//   convert_csvset [FLAGS] CSV_FILE_NAME DB_NAME DATA_COLUMNS LABEL_COLUMNS
+//   convert_csvset [FLAGS] CSV_FILE_NAME DB_NAME
 //
 
+#include <iostream>
 #include <cstdio>
 #include <cstdlib>
 
